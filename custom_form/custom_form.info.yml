@@ -1,0 +1,7 @@
+name: Custom Form
+type: module
+description: Create a custom form with validations.
+package: Custom
+dependencies:
+  - node
+core_version_requirement: ^8 || ^9

@@ -1,0 +1,15 @@
+example_module.hellomsg:
+  path: '/example_module'
+  defaults:
+    _controller: 'Drupal\example_module\Controller\ExampleModuleController::message'
+    _title: 'Example Module!'
+  requirements:
+    _permission: 'access content'
+
+example_module.catfact:
+  path: '/get-cat-factss'
+  defaults:
+    _controller: 'Drupal\example_module\Controller\ExampleAPIController::getFact'
+    _title: 'Cat Facts!'
+  requirements:
+    _permission: 'access content'      

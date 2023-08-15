@@ -1,0 +1,7 @@
+name: 'example_module'
+type: module
+description: 'example  custom module'
+core_version_requirement: ^8 || ^9
+package: Custom
+dependencies:
+  - drupal:block

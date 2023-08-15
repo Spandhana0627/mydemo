@@ -1,0 +1,23 @@
+hello_world.hellomsg:
+  path: '/hello_world'
+  defaults:
+    _controller: 'Drupal\hello_world\Controller\HelloWorldController::message'
+    _title: 'Hello World!'
+  requirements:
+    _permission: 'access content'
+
+hello_world.catfact:
+  path: '/get-cat-facts'
+  defaults:
+    _controller: 'Drupal\hello_world\Controller\APIController::getFact'
+    _title: 'Cat Facts!'
+  requirements:
+    _permission: 'access content'    
+
+hello_world.restapi:
+  path: '/rest-api'
+  defaults:
+    _controller: 'Drupal\hello_world\Controller\APIController::restPostApi'
+    _title: 'Post API'
+  requirements:
+    _permission: 'access content'  

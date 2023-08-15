@@ -1,0 +1,5 @@
+name: Batch UND Language Code.
+type: module
+description: This module change undefine language code (und) to german language code (de).
+core_version_requirement: ^8 || ^9
+package: Custom

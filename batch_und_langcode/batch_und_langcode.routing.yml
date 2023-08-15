@@ -1,0 +1,7 @@
+batch_und_langcode.replace_with_de_langcode:
+  path: '/batch-langcode/replace'
+  defaults:
+    _form: '\Drupal\batch_und_langcode\Form\ReplaceLanguageCodeForm'
+    _title: 'Batch Language Code'
+  requirements:
+    _permission: 'access content'
